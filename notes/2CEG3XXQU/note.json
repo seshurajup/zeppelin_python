@@ -1,0 +1,310 @@
+{
+  "paragraphs": [
+    {
+      "title": "Python Version",
+      "text": "import sys\nprint(sys.version)",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:30:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "2.7.13 (default, Apr  4 2017, 08:47:57) \n[GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493263766660_-65801641",
+      "id": "20170426-202926_744420644",
+      "dateCreated": "Apr 26, 2017 8:29:26 PM",
+      "dateStarted": "Apr 26, 2017 9:30:05 PM",
+      "dateFinished": "Apr 26, 2017 9:30:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Hello World",
+      "text": "print \"Hellow World\"",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:30:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Hellow World\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493263798926_-703468487",
+      "id": "20170426-202958_1053324079",
+      "dateCreated": "Apr 26, 2017 8:29:58 PM",
+      "dateStarted": "Apr 26, 2017 9:30:05 PM",
+      "dateFinished": "Apr 26, 2017 9:30:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Variable Definition",
+      "text": "variable \u003d 5 # variable define\nprint \"variable value \u003d \" + str(variable)",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:30:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "variable value \u003d 5\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493264159589_1252916729",
+      "id": "20170426-203559_1789517475",
+      "dateCreated": "Apr 26, 2017 8:35:59 PM",
+      "dateStarted": "Apr 26, 2017 9:30:05 PM",
+      "dateFinished": "Apr 26, 2017 9:30:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Function Definition",
+      "text": "# function definition start with \u0027def\u0027\n\ndef main():\n    print \"main function called\"\n    \nif __name__ \u003d\u003d \"__main__\":\n    main()\n\ndef function():\n    print \"function without arguments and return null\"\n    \ndef function1(value1, value2):\n    return value1 + value2\n    \ndef function2(value1, value2\u003d2):\n    return value1 + value2 \n    \ndef function3(*args):\n    sum \u003d 0\n    for value in args:\n        sum \u003d sum + value\n    return sum\n    \nprint \"function return value \"+str(function())\nprint \"function1 takes 2 values and return sum as \"+str(function1(1,2))\nprint \"function1 takes 2 values with names and return sum as \"+str(function1(value1\u003d2,value2\u003d1))\nprint \"function2 takes 1 parameter, 1 default value parameter and return its sum as \"+str(function2(1))\nprint \"function3 takes list of numbers and return sum \"+str(function3(1,2))+\" other one as \"+str(function3(1,2,3))",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:30:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "main function called\nfunction without arguments and return null\nfunction return value None\nfunction1 takes 2 values and return sum as 3\nfunction1 takes 2 values with names and return sum as 3\nfunction2 takes 1 parameter, 1 default value parameter and return its sum as 3\nfunction3 takes list of numbers and return sum 3 other one as 6\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493264091799_1014464356",
+      "id": "20170426-203451_286954719",
+      "dateCreated": "Apr 26, 2017 8:34:51 PM",
+      "dateStarted": "Apr 26, 2017 9:30:05 PM",
+      "dateFinished": "Apr 26, 2017 9:30:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Global vs Local Variable",
+      "text": "variable \u003d 20 #global variable\ndef function():\n    variable \u003d 10 #local variable\n    print \"Function, variable value \"+str(variable)\n    \ndef gfunction():\n    global variable\n    variable\u003d 30 #global variable\n    print \"GFunction, variable value \"+str(variable)\n\nprint \"Before function is called , variable value \"+str(variable) \nfunction()\nprint \"After function is called , variable value \"+str(variable)\ngfunction()\nprint \"After function is called , variable value \"+str(variable)\n",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:30:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Before function is called , variable value 20\nFunction, variable value 10\nAfter function is called , variable value 20\nGFunction, variable value 30\nAfter function is called , variable value 30\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493264629387_-241987110",
+      "id": "20170426-204349_993159338",
+      "dateCreated": "Apr 26, 2017 8:43:49 PM",
+      "dateStarted": "Apr 26, 2017 9:30:05 PM",
+      "dateFinished": "Apr 26, 2017 9:30:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Conditions",
+      "text": "a, b \u003d 10,20\nif a \u003e b:\n    print \" a \u003e b is true \"\nelif a \u003d\u003d b:\n    print \" a \u003d\u003d b is true \"\nelse:\n    print \" a \u003c b is true \"\n    \n# a if C else b\nmessage \u003d \" a \u003e b is true \" if a \u003e b else \" a\u003c\u003db is true \"\nprint message \n\n",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:44:38 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": " a \u003c b is true \n a\u003c\u003db is true \n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493265006258_-1421089247",
+      "id": "20170426-205006_492754587",
+      "dateCreated": "Apr 26, 2017 8:50:06 PM",
+      "dateStarted": "Apr 26, 2017 9:44:38 PM",
+      "dateFinished": "Apr 26, 2017 9:44:38 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Loops",
+      "text": "for value in range(0,3):\n    print \"Value :\"+str(value)\n    \nfor value in [1,2,3]:\n    print \"Value :\"+str(value)\n    \nfor index, value in enumerate([1,2,3]):\n    print \"Value :\"+str(value)+\" at Index:\"+str(index)\nvalue \u003d 0\nwhile value \u003c 3:\n    print \"Value :\"+str(value)\n    value \u003d value + 1",
+      "user": "anonymous",
+      "dateUpdated": "Apr 26, 2017 9:48:11 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Value :0\nValue :1\nValue :2\nValue :1\nValue :2\nValue :3\nValue :1 at Index:0\nValue :2 at Index:1\nValue :3 at Index:2\nValue :0\nValue :1\nValue :2\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1493267982461_-1364876513",
+      "id": "20170426-213942_1526049953",
+      "dateCreated": "Apr 26, 2017 9:39:42 PM",
+      "dateStarted": "Apr 26, 2017 9:48:11 PM",
+      "dateFinished": "Apr 26, 2017 9:48:11 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1493268354535_-2035172039",
+      "id": "20170426-214554_2124953741",
+      "dateCreated": "Apr 26, 2017 9:45:54 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "01 Basics",
+  "id": "2CEG3XXQU",
+  "angularObjects": {
+    "2CF8JQR12:shared_process": [],
+    "2CECRETG1:shared_process": [],
+    "2CD74WYBU:shared_process": [],
+    "2CDWR389S:shared_process": [],
+    "2CFF6AXPU:shared_process": [],
+    "2CF7SXK74:shared_process": [],
+    "2CFPAAGSF:shared_process": [],
+    "2CEGBABSE:shared_process": [],
+    "2CF22AU1J:shared_process": [],
+    "2CG3F3AG9:shared_process": [],
+    "2CDVMCK86:shared_process": [],
+    "2CEXD7RWB:shared_process": [],
+    "2CF5YTQZ2:shared_process": [],
+    "2CFHVMTRD:shared_process": [],
+    "2CDHXXZKC:shared_process": [],
+    "2CED8RJJR:shared_process": [],
+    "2CGKDQ64A:shared_process": [],
+    "2CF2DRBXB:shared_process": [],
+    "2CFTXQBJU:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
